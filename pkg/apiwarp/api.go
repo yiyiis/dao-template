@@ -47,11 +47,7 @@ func Controller[In any, Out any](fc func(ctx context.Context, in *In) (*Out, err
 		// 执行业务函数
 		out, err := fc(gCtx.Request.Context(), &in)
 		if err != nil {
-			slog.Default().With("url", gCtx.FullPath()).ErrorContext(gCtx.Request.Context(), fmt.Sprintf("\n%s\n", err.Error()))
-			var stackErr *errors.StackErr
-			if errors.As(err, &stackErr) {
-				slog.Default().With("url", gCtx.FullPath()).ErrorContext(gCtx.Request.Context(), fmt.Sprintf("%+v", stackErr))
-			}
+			slog.Default().With("url", gCtx.FullPath()).ErrorContext(gCtx.Request.Context(), fmt.Sprintf("\n%+v\n", err))
 
 			var msgErr *errors.MsgErr
 			msg := "系统异常"
