@@ -2,7 +2,7 @@ package db
 
 import (
 	"context"
-	"dao-template/dal/query"
+	"backend/dal/query"
 )
 
 const key = "gormDb"

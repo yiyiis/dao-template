@@ -2,11 +2,11 @@ package dao
 
 import (
 	"context"
-	"dao-template/constants"
-	"dao-template/dal/model"
-	"dao-template/pkg/db"
-	"dao-template/pkg/errors"
-	"dao-template/pkg/jwt"
+	"backend/constants"
+	"backend/dal/model"
+	"backend/pkg/db"
+	"backend/pkg/errors"
+	"backend/pkg/jwt"
 	"gorm.io/gorm"
 )
 

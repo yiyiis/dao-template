@@ -2,8 +2,8 @@ package jwt
 
 import (
 	"context"
-	"dao-template/constants"
-	"dao-template/pkg/errors"
+	"backend/constants"
+	"backend/pkg/errors"
 	"github.com/golang-jwt/jwt/v5"
 	"time"
 )

@@ -7,7 +7,7 @@
 ## 目录结构设计
 
 ```text
-dao-template/
+backend/
 ├── api/                       # 控制层 / 业务用例（基于泛型 Controller 包装）
 │   ├── auth.go                # 登录、鉴权等接口
 │   └── user.go                # 用户业务接口

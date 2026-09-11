@@ -2,10 +2,10 @@ package api
 
 import (
 	"context"
-	"dao-template/dao"
-	"dao-template/pkg/db"
-	"dao-template/pkg/errors"
-	"dao-template/pkg/jwt"
+	"backend/dao"
+	"backend/pkg/db"
+	"backend/pkg/errors"
+	"backend/pkg/jwt"
 )
 
 // UserInfoRequest 用户信息获取请求

@@ -2,8 +2,8 @@ package apiwarp
 
 import (
 	"context"
-	"dao-template/pkg/errors"
-	"dao-template/pkg/validate"
+	"backend/pkg/errors"
+	"backend/pkg/validate"
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"dao-template/api"
-	. "dao-template/pkg/apiwarp"
+	"backend/api"
+	. "backend/pkg/apiwarp"
 	"github.com/gin-gonic/gin"
 	"time"
 )

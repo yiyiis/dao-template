@@ -1,9 +1,9 @@
 package config
 
 import (
-	"dao-template/pkg/db"
-	"dao-template/pkg/jwt"
-	"dao-template/pkg/log"
+	"backend/pkg/db"
+	"backend/pkg/jwt"
+	"backend/pkg/log"
 	"fmt"
 	"github.com/spf13/viper"
 )

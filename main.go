@@ -1,11 +1,11 @@
 package main
 
 import (
-	"dao-template/config"
-	"dao-template/pkg/db"
-	"dao-template/pkg/jwt"
-	"dao-template/pkg/log"
-	"dao-template/pkg/validate"
+	"backend/config"
+	"backend/pkg/db"
+	"backend/pkg/jwt"
+	"backend/pkg/log"
+	"backend/pkg/validate"
 	"flag"
 	"fmt"
 	"github.com/gin-contrib/cors"

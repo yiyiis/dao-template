@@ -1,7 +1,7 @@
 package db
 
 import (
-	"dao-template/dal/query"
+	"backend/dal/query"
 	"fmt"
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

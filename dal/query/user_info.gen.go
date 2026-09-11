@@ -16,7 +16,7 @@ import (
 
 	"gorm.io/plugin/dbresolver"
 
-	"dao-template/dal/model"
+	"backend/dal/model"
 )
 
 func newUserInfo(db *gorm.DB, opts ...gen.DOOption) userInfo {

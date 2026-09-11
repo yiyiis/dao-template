@@ -2,10 +2,10 @@ package api
 
 import (
 	"context"
-	"dao-template/constants"
-	"dao-template/dao"
-	"dao-template/pkg/errors"
-	"dao-template/pkg/jwt"
+	"backend/constants"
+	"backend/dao"
+	"backend/pkg/errors"
+	"backend/pkg/jwt"
 	"gorm.io/gorm"
 )
 
